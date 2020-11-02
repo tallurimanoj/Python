@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> First Webpage</title>
+    </head>
+    <body>
+        <!-- Headings-->
+        <h1> My Web Page</h1>
+        <ul>
+            <li>First Name</li>
+            <li>Last Name</li>
+            <li>Cell Number</li>
+            <li>SSN</li>
+        </ul>
+        <ol>
+            <li>First Name</li>
+            <li>Last Name</li>
+            <li>Cell Number</li>
+            <li>SSN</li>
+        </ol>
+        <hr>
+        <!-- tables-->
+        <table>
+            <thead>
+                <tr> 
+                    <th> Name</th>
+                    <th> Email</th>
+                    <th> Age</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>Manoj</td>
+                        <td>mnj@gmail.com</td>
+                        <td>27</td>
+                    </tr>
+                    <tr>
+                        <td>Kumar</td>
+                        <td>kmr@gmail.com</td>
+                        <td>28</td>
+                    </tr>
+
+                </tbody>
+            </thead>
+        </table>
+        <hr>
+       <!--forms-->
+     <form action="proccess.php" method="POST">
+            <div> 
+                <label>First Name</label>
+                <input type="text" name="First-Name" placeholder="enter first name">
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="Last-Name" placeholder="enter last name">
+            </div>
+            <br>
+            <div>
+                <label>EMAIL</label>
+                <input type="email" name="email" placeholder="enter email">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name="Gender">
+                    <option value="Male">Male</option>
+                    <option value="FeMale">FeMale</option>
+                    <option value="Others">others</option>
+                 </select>
+            </div>
+            <br>
+            <div>
+                <label>Age:</label>
+                <input type="number" name="Age" value="27">
+            </div>
+            <br>
+            <div>
+                <label>Birhtday:</label>
+                <input type="date" name="Birthday">
+            </div>
+            <br>
+            <input type="submit" name="submit" value="submit">
+      </form>
+
+      <!-- buttun -->
+      <button> Clickme</button>
+      <br>
+
+      <!-- Image -->
+      <img src="folder3/photo.jpg" width="300">
+      
+    </body>
+</html>
